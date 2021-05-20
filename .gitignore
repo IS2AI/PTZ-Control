@@ -1,2 +1,4 @@
 config_user.yml
-__pycache__/
+__pycache__/*
+python-onvif-zeep/*
+data/*
