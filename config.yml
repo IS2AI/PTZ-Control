@@ -1,0 +1,36 @@
+########################
+# Recording settings
+########################
+video_save : True
+video_path : 'data/'
+video_name : 'sample1234567'
+video_fps : 30
+
+########################
+# camera settings
+########################
+iso_value : 0
+auto_focus : True
+
+########################
+# PTZ control settings
+########################
+
+# set default velocity
+threshold_speed : 1.0    # clip the values of the speed to [-threshold, + threshold]
+pan_speed : 0.1    # ratio of max speed - horizontal
+tilt_speed : 0.1     # ratio of max speed - vertical
+zoom_speed : 0.1     # ratio of max speed - zoom
+
+# select the control modes
+control_mode : 1    # 1 - continuous movement, 2 - absolute movement,  3 - positioning from map
+
+# 1 - continuous movement
+motion_timeout : 1    # motion time (seconds) for continuous movement
+
+# 2 - absolute movement
+pan_pos : 0.1
+tilt_pos : 0.2
+zoom : 0.4
+
+# 3 - positioning from map

@@ -1,0 +1,7 @@
+conda install pip
+pip install rtsp
+conda install -c conda-forge opencv
+conda install -c anaconda yaml
+pip install pyqt5
+pip install pyqt5-tools
+conda install -c conda-forge xmltodict
