@@ -2,3 +2,4 @@ config_user.yml
 __pycache__/*
 python-onvif-zeep/*
 data/*
+testing.py
